@@ -1,0 +1,31 @@
+<!-- Table -->
+<h2>USERS LIST</h2>
+<!-- <div class="table-responsive m-2"> -->
+    <table class="table m-2">
+        <thead>
+            <tr style="background-color:dodgerblue">
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>DOB</th>
+                <th>Email</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let users of users$ | async; let i=index">
+                <td>{{users.id}}</td>
+                <td>{{users.firstName}}</td>
+                <td>{{users.lastName}}</td>
+                <td>{{users.dob}}</td>
+                <td>{{users.email}}</td>
+                <td>{{users.password}}</td>
+                <!-- <td><span *ngFor="let prevEval of pokemones.prev_evolution">{{prevEval.num}} , {{prevEval.name}}</span>
+                </td>
+                <td><span *ngFor="let nextEval of pokemones.next_evolution">{{nextEval.num}} , {{nextEval.name}}</span>
+                </td>
+                <td><img [src]="pokemones.img" alt="img1" class="img-thumbnail"></td> -->
+            </tr>
+        </tbody>
+    </table>
+<!-- </div> -->

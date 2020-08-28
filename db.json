@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "hiren",
+      "lastName": "sharma",
+      "dob": "1999-08-08",
+      "email": "hiren@gmail.com",
+      "password": "hiren123"
+    },
+    {
+      "firstName": "chetan",
+      "lastName": "desai",
+      "dob": "1995-02-27",
+      "email": "chetan@gmail.com",
+      "password": "chetan123",
+      "id": 2
+    },
+    {
+      "firstName": "abhi",
+      "lastName": "chauhan",
+      "dob": "2020-08-12",
+      "email": "abhi@gmail.com",
+      "password": "abhi123",
+      "id": 3
+    },
+    {
+      "firstName": "kiran",
+      "lastName": "tandel",
+      "dob": "2020-07-28",
+      "email": "kiran@gmail.com",
+      "password": "kiran123",
+      "id": 4
+    }
+  ]
+}
